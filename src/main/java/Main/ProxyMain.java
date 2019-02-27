@@ -49,6 +49,8 @@ public class ProxyMain {
             out.write(bytes);
             out.flush();
             System.out.println("生成动态代理字节码操作完成");
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
